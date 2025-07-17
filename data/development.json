@@ -1,0 +1,154 @@
+[
+  {
+    "category": "Development",
+    "id": "vscode",
+    "name": "Visual Studio Code",
+    "icon": "fas fa-code",
+    "description": "Free, open-source code editor with IntelliSense, debugging, and Git integration. Supports hundreds of languages and extensions.",
+    "link": "https://code.visualstudio.com",
+    "rating": 4.9,
+    "badge": "Free",
+    "features": [
+      "IntelliSense",
+      "Debugging",
+      "Git integration",
+      "Extensions marketplace",
+      "Multi-platform"
+    ],
+    "pricing": "Free",
+    "dateAdded": "2023-01-10"
+  },
+  {
+    "category": "Development",
+    "id": "github",
+    "name": "GitHub",
+    "icon": "fab fa-github",
+    "description": "Git repository hosting service with collaboration features, issue tracking, and CI/CD workflows.",
+    "link": "https://github.com",
+    "rating": 4.8,
+    "badge": "Popular",
+    "features": [
+      "Git hosting",
+      "Collaboration",
+      "Issue tracking",
+      "Actions CI/CD",
+      "Code review"
+    ],
+    "pricing": "Freemium",
+    "dateAdded": "2023-01-05"
+  },
+  {
+    "category": "Development",
+    "id": "postman",
+    "name": "Postman",
+    "icon": "fas fa-paper-plane",
+    "description": "API development environment for building, testing, and documenting APIs with a user-friendly interface.",
+    "link": "https://postman.com",
+    "rating": 4.7,
+    "badge": "Popular",
+    "features": [
+      "API testing",
+      "Documentation",
+      "Team collaboration",
+      "Automated testing",
+      "Mock servers"
+    ],
+    "pricing": "Freemium",
+    "dateAdded": "2023-01-15"
+  },
+  {
+    "category": "Development",
+    "id": "docker",
+    "name": "Docker",
+    "icon": "fab fa-docker",
+    "description": "Platform for developing, shipping, and running applications using containerization technology.",
+    "link": "https://docker.com",
+    "rating": 4.6,
+    "badge": "Free",
+    "features": [
+      "Containerization",
+      "Multi-platform",
+      "Scalability",
+      "DevOps integration",
+      "Resource efficiency"
+    ],
+    "pricing": "Freemium",
+    "dateAdded": "2023-01-20"
+  },
+  {
+    "category": "Development",
+    "id": "vercel",
+    "name": "Vercel",
+    "icon": "fas fa-rocket",
+    "description": "Frontend cloud platform for static sites and serverless functions with instant deployment.",
+    "link": "https://vercel.com",
+    "rating": 4.8,
+    "badge": "Popular",
+    "features": [
+      "Instant deployment",
+      "Serverless functions",
+      "Global CDN",
+      "Preview deployments",
+      "Analytics"
+    ],
+    "pricing": "Freemium",
+    "dateAdded": "2023-02-01"
+  },
+  {
+    "category": "Development",
+    "id": "netlify",
+    "name": "Netlify",
+    "icon": "fas fa-globe",
+    "description": "Web development platform for modern static websites with continuous deployment from Git.",
+    "link": "https://netlify.com",
+    "rating": 4.7,
+    "badge": "Popular",
+    "features": [
+      "Static hosting",
+      "Continuous deployment",
+      "Forms handling",
+      "Functions",
+      "Split testing"
+    ],
+    "pricing": "Freemium",
+    "dateAdded": "2023-01-25"
+  },
+  {
+    "category": "Development",
+    "id": "stackoverflow",
+    "name": "Stack Overflow",
+    "icon": "fab fa-stack-overflow",
+    "description": "Q&A platform for programmers to share knowledge and find solutions to coding problems.",
+    "link": "https://stackoverflow.com",
+    "rating": 4.5,
+    "badge": "Free",
+    "features": [
+      "Q&A community",
+      "Code snippets",
+      "Reputation system",
+      "Tags organization",
+      "Developer jobs"
+    ],
+    "pricing": "Free",
+    "dateAdded": "2023-01-08"
+  },
+  {
+    "category": "Development",
+    "id": "codepen",
+    "name": "CodePen",
+    "icon": "fab fa-codepen",
+    "description": "Online code editor and social development environment for front-end web development.",
+    "link": "https://codepen.io",
+    "rating": 4.6,
+    "badge": "Popular",
+    "features": [
+      "Live preview",
+      "Code sharing",
+      "Community",
+      "Preprocessors",
+      "Asset hosting"
+    ],
+    "pricing": "Freemium",
+    "dateAdded": "2023-01-12"
+  }
+]
