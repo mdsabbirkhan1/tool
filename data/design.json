@@ -1,0 +1,154 @@
+[
+  {
+    "category": "Design",
+    "id": "figma",
+    "name": "Figma",
+    "icon": "fab fa-figma",
+    "description": "Collaborative design tool for teams to create, prototype, and gather feedback on user interfaces and user experiences.",
+    "link": "https://figma.com",
+    "rating": 4.8,
+    "badge": "Popular",
+    "features": [
+      "Real-time collaboration",
+      "Prototyping",
+      "Design systems",
+      "Auto-layout",
+      "Developer handoff"
+    ],
+    "pricing": "Freemium",
+    "dateAdded": "2023-01-15"
+  },
+  {
+    "category": "Design",
+    "id": "canva",
+    "name": "Canva",
+    "icon": "fas fa-palette",
+    "description": "Easy-to-use graphic design platform with templates for social media, presentations, posters, and more.",
+    "link": "https://canva.com",
+    "rating": 4.7,
+    "badge": "Popular",
+    "features": [
+      "Templates library",
+      "Drag-and-drop editor",
+      "Team collaboration",
+      "Brand kit",
+      "Animation"
+    ],
+    "pricing": "Freemium",
+    "dateAdded": "2023-01-08"
+  },
+  {
+    "category": "Design",
+    "id": "adobe-xd",
+    "name": "Adobe XD",
+    "icon": "fab fa-adobe",
+    "description": "Vector-based user experience design tool for web and mobile apps with prototyping and collaboration features.",
+    "link": "https://adobe.com/products/xd.html",
+    "rating": 4.5,
+    "badge": "Popular",
+    "features": [
+      "Vector design",
+      "Interactive prototypes",
+      "Voice prototyping",
+      "Design specs",
+      "Creative Cloud integration"
+    ],
+    "pricing": "Freemium",
+    "dateAdded": "2023-01-12"
+  },
+  {
+    "category": "Design",
+    "id": "sketch",
+    "name": "Sketch",
+    "icon": "fas fa-pencil-ruler",
+    "description": "Digital design toolkit for Mac focused on user interface and user experience design.",
+    "link": "https://sketch.com",
+    "rating": 4.6,
+    "badge": "Premium",
+    "features": [
+      "Vector editing",
+      "Symbols and reusable components",
+      "Plugin ecosystem",
+      "Prototyping",
+      "Developer handoff"
+    ],
+    "pricing": "Paid",
+    "dateAdded": "2023-01-05"
+  },
+  {
+    "category": "Design",
+    "id": "unsplash",
+    "name": "Unsplash",
+    "icon": "fas fa-camera",
+    "description": "High-quality stock photos and images for free, contributed by a community of photographers.",
+    "link": "https://unsplash.com",
+    "rating": 4.8,
+    "badge": "Free",
+    "features": [
+      "High-resolution photos",
+      "Free to use",
+      "API access",
+      "Collections",
+      "Search functionality"
+    ],
+    "pricing": "Free",
+    "dateAdded": "2023-01-20"
+  },
+  {
+    "category": "Design",
+    "id": "dribbble",
+    "name": "Dribbble",
+    "icon": "fab fa-dribbble",
+    "description": "Community platform for designers to showcase work, discover inspiration, and connect with other creatives.",
+    "link": "https://dribbble.com",
+    "rating": 4.4,
+    "badge": "Popular",
+    "features": [
+      "Design showcase",
+      "Community feedback",
+      "Job opportunities",
+      "Design inspiration",
+      "Networking"
+    ],
+    "pricing": "Freemium",
+    "dateAdded": "2023-01-18"
+  },
+  {
+    "category": "Design",
+    "id": "coolors",
+    "name": "Coolors",
+    "icon": "fas fa-swatchbook",
+    "description": "Color scheme generator and palette tool for creating beautiful color combinations for your designs.",
+    "link": "https://coolors.co",
+    "rating": 4.7,
+    "badge": "Free",
+    "features": [
+      "Color palette generator",
+      "Export options",
+      "Trending palettes",
+      "Color accessibility",
+      "Mobile app"
+    ],
+    "pricing": "Freemium",
+    "dateAdded": "2023-02-01"
+  },
+  {
+    "category": "Design",
+    "id": "fontawesome",
+    "name": "Font Awesome",
+    "icon": "fab fa-font-awesome",
+    "description": "Icon library and toolkit with thousands of free and premium icons for web and desktop applications.",
+    "link": "https://fontawesome.com",
+    "rating": 4.6,
+    "badge": "Popular",
+    "features": [
+      "Icon library",
+      "Web fonts",
+      "SVG icons",
+      "Custom icons",
+      "Multiple formats"
+    ],
+    "pricing": "Freemium",
+    "dateAdded": "2023-01-10"
+  }
+]

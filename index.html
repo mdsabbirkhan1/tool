@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToolsHub - Your Ultimate Digital Toolkit</title>
+    <meta name="description" content="Discover the best digital tools and resources for productivity, design, development, and more. Free tools collection for everyone.">
+    <meta name="keywords" content="tools, digital tools, productivity, design, development, free tools">
+    
+    <!-- PWA Meta Tags -->
+    <meta name="theme-color" content="#3b82f6">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="ToolsHub">
+    
+    <!-- PWA Icons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png">
+    <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components.css">
+    
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- PWA Install Banner -->
+    <div id="pwa-install-banner" class="pwa-banner hidden">
+        <div class="pwa-banner-content">
+            <i class="fas fa-download"></i>
+            <span>Install ToolsHub for quick access</span>
+            <button id="pwa-install-btn" class="btn-install">Install</button>
+            <button id="pwa-dismiss-btn" class="btn-dismiss">✕</button>
+        </div>
+    </div>
+
+    <!-- AdsTerra Banner Ad -->
+    <div id="banner-ad" class="banner-ad">
+        <div class="ad-container">
+            <!-- AdsTerra Banner Code will go here -->
+            <div class="ad-placeholder">
+                <span>Advertisement</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <i class="fas fa-tools"></i>
+                    <span>ToolsHub</span>
+                </div>
+                
+                <div class="nav-menu">
+                    <a href="index.html" class="nav-link active">Home</a>
+                    <a href="tools.html" class="nav-link">Tools</a>
+                </div>
+                
+                <div class="nav-actions">
+                    <button id="search-btn" class="action-btn" title="Search">
+                        <i class="fas fa-search"></i>
+                    </button>
+                    <button id="theme-toggle" class="action-btn" title="Toggle Theme">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <button id="menu-toggle" class="action-btn mobile-only">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="mobile-menu">
+        <div class="mobile-menu-content">
+            <a href="index.html" class="mobile-link active">Home</a>
+            <a href="tools.html" class="mobile-link">Tools</a>
+        </div>
+    </div>
+
+    <!-- Search Modal -->
+    <div id="search-modal" class="modal">
+        <div class="modal-content search-modal-content">
+            <div class="search-header">
+                <div class="search-input-container">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="search-input" placeholder="Search tools...">
+                </div>
+                <button id="search-close" class="btn-close">✕</button>
+            </div>
+            <div id="search-results" class="search-results">
+                <div class="search-placeholder">
+                    <i class="fas fa-search"></i>
+                    <p>Start typing to search tools...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        Your Ultimate <span class="gradient-text">Digital Toolkit</span>
+                    </h1>
+                    <p class="hero-description">
+                        Discover the best curated digital tools and resources for productivity, 
+                        design, development, and more. All in one place, completely free.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="tools.html" class="btn btn-primary">
+                            <i class="fas fa-tools"></i>
+                            Browse Tools
+                        </a>
+                        <button id="featured-tools-btn" class="btn btn-secondary">
+                            <i class="fas fa-star"></i>
+                            Featured Tools
+                        </button>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="hero-cards">
+                        <div class="hero-card" data-aos="fade-up" data-aos-delay="100">
+                            <i class="fas fa-code"></i>
+                            <span>Development</span>
+                        </div>
+                        <div class="hero-card" data-aos="fade-up" data-aos-delay="200">
+                            <i class="fas fa-palette"></i>
+                            <span>Design</span>
+                        </div>
+                        <div class="hero-card" data-aos="fade-up" data-aos-delay="300">
+                            <i class="fas fa-chart-bar"></i>
+                            <span>Analytics</span>
+                        </div>
+                        <div class="hero-card" data-aos="fade-up" data-aos-delay="400">
+                            <i class="fas fa-rocket"></i>
+                            <span>Productivity</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="stats">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-number" id="tools-count">500+</div>
+                        <div class="stat-label">Tools Available</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" id="categories-count">25+</div>
+                        <div class="stat-label">Categories</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" id="users-count">10K+</div>
+                        <div class="stat-label">Happy Users</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Free</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Popular Categories -->
+        <section class="categories">
+            <div class="container">
+                <h2 class="section-title">Popular Categories</h2>
+                <p class="section-description">Explore tools by category</p>
+                <div id="categories-grid" class="categories-grid">
+                    <!-- Categories will be loaded dynamically -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Most Used Tools -->
+        <section class="popular-tools">
+            <div class="container">
+                <h2 class="section-title">Most Used Tools</h2>
+                <p class="section-description">Based on user interactions</p>
+                <div id="popular-tools-grid" class="tools-grid">
+                    <!-- Popular tools will be loaded dynamically -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Recent Tools -->
+        <section class="recent-tools">
+            <div class="container">
+                <h2 class="section-title">Recently Added</h2>
+                <p class="section-description">Fresh tools added to our collection</p>
+                <div id="recent-tools-grid" class="tools-grid">
+                    <!-- Recent tools will be loaded dynamically -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-tools"></i>
+                        <span>ToolsHub</span>
+                    </div>
+                    <p>Your ultimate destination for discovering amazing digital tools and resources.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <a href="index.html">Home</a>
+                    <a href="tools.html">Tools</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Categories</h4>
+                    <a href="tools.html?category=development">Development</a>
+                    <a href="tools.html?category=design">Design</a>
+                    <a href="tools.html?category=productivity">Productivity</a>
+                    <a href="tools.html?category=marketing">Marketing</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 ToolsHub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cookie Consent -->
+    <div id="cookie-consent" class="cookie-consent hidden">
+        <div class="cookie-content">
+            <div class="cookie-text">
+                <i class="fas fa-cookie-bite"></i>
+                <span>We use cookies to enhance your experience. By continuing to visit this site you agree to our use of cookies.</span>
+            </div>
+            <div class="cookie-actions">
+                <button id="cookie-accept" class="btn btn-primary btn-sm">Accept</button>
+                <button id="cookie-decline" class="btn btn-secondary btn-sm">Decline</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Loading Spinner -->
+    <div id="loading-spinner" class="loading-spinner hidden">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/config.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/storage.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/pwa.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
